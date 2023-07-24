@@ -32,4 +32,17 @@ public class SearchPage {
 		String noProductMessageText= (noProductMessage.getText());
 		return noProductMessageText;
 	}
+	
+	public void clickOnValidProduct()
+	{
+		validHPProduct.click();
+		
+	}
+	
+	public ProductDetailsPage navigateToProductDetailsPage()
+	{
+		validHPProduct.click();
+		return new ProductDetailsPage(driver);
+	}
+	
 }

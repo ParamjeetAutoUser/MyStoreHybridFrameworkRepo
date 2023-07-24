@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class AccountSuccessPage {
 	
 	WebDriver driver;
+	
 	@FindBy(xpath="//div[@id='content']/h1")
 	private WebElement accountSuccessPageHeading;
 	
