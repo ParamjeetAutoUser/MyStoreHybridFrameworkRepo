@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class ProductDetailsPage {
 	
 	WebDriver driver;
-	
+	//comment
 	@FindBy(xpath = "//div[@id='content']//div[@class='col-sm-4']/ul[2]/li[1]/h2")
 	private WebElement productPriceTxt;
 	
